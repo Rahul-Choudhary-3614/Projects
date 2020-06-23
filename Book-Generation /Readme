@@ -1,0 +1,7 @@
+Recurrent neural networks can also be used as generative models.
+
+I  build and trained a  LSTM recurrent neural networks in Python with Keras from scratch to generate text. The text used for training is from book "Shelock Holmes-Hounds of Baskeville". I love this book and so I generate a new chapter to this book with the LSTM model.
+
+In this project I developed a LSTM network to learn sequences of characters from Shelock Holmes-Hounds of Baskeville and then used it to generate new sequences of characters.
+
+The model ran for 50 epochs(35-40 minutes per epoch) on g single gpu.

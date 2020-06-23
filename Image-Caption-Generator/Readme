@@ -1,0 +1,31 @@
+
+Introduction=>
+
+	Image caption generator is a task that involves computer vision and natural language processing concepts to recognize the context of an image and describe them in a natural language like English.
+
+Technique Used=>
+	In this project where I used deep learning techniques of Convolutional Neural Networks and a type of Recurrent Neural Network (LSTM) together.The image features will be extracted from Xception which is a CNN model trained on the imagenet dataset and then we feed the features into the LSTM model which will be responsible for generating the image captions.
+
+Dataset=>
+	For the image caption generator, we will be using the Flickr_30K dataset. 
+
+File=>
+	pretrained_weights.h5 – It will our trained model weights.
+	Tokenizer.p – Contains tokens mapped with an index value.
+	Testing_caption_generator.py – Python file for generating a caption of any image.
+	Model.png – Visual representation of dimensions of our project.
+
+Training results=>
+	Crossentropy Loss for Training Set=3.3869
+	Crossentropy Loss for Validation Set=3.4009
+
+Generated Captions on Test Images
+
+Procedure to Test on new images=>
+
+1.Clone the repository to preserve directory structure.
+2.git clone https://github.com/RahulChoudhary3614/Projects/tree/master/Image-Caption-Generator
+3.Open the terminal
+4.Run Testing_caption_generator.py -I <Image-Path>
+
+The Testing_caption_generator.py also contains the architecture of the model I have used.	
